@@ -17,7 +17,7 @@ and the machine accepts only a single dollar bill to pay for the item.
       Your change is 0 quarters, 0 dimes, and 1 nickles*/
 		//quarters=25ct, dimes=10ct, nickles=5ct;
 		
-		calcChange(105);
+		calcChange(45);
 
 	}
 	public static void calcChange(int price) {

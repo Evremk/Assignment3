@@ -32,7 +32,7 @@ and the machine accepts only a single dollar bill to pay for the item.
 	
 	int dimesAmount=(change%25)/10;
 	
-	int nicklesAmount=((change-(quarterAmount*25)-(dimesAmount*10))/5);
+	int nicklesAmount=((change%25)%10)/5;
 
 	
 	System.out.println("Your change is "+quarterAmount+" quarters, "+dimesAmount+
